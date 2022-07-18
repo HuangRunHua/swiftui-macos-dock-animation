@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD591880288546E30072FC79 /* DockSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59187F288546E30072FC79 /* DockSettings.swift */; };
 		BD8AFEE72884F37400BBA900 /* MacOSDockAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEE62884F37400BBA900 /* MacOSDockAnimationApp.swift */; };
 		BD8AFEE92884F37400BBA900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEE82884F37400BBA900 /* ContentView.swift */; };
 		BD8AFEEB2884F37400BBA900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AFEEA2884F37400BBA900 /* Assets.xcassets */; };
 		BD8AFEEE2884F37400BBA900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AFEED2884F37400BBA900 /* Preview Assets.xcassets */; };
 		BD8AFEF62884F38B00BBA900 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEF52884F38B00BBA900 /* App.swift */; };
 		BD8AFEFA2884F63D00BBA900 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEF92884F63D00BBA900 /* ColorExtension.swift */; };
+		BD8AFEFC2884F93900BBA900 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEFB2884F93900BBA900 /* BackgroundView.swift */; };
+		BD8AFEFE28851D7000BBA900 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEFD28851D7000BBA900 /* BlurView.swift */; };
+		BD8AFF0028851EC700BBA900 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEFF28851EC700BBA900 /* AppIconView.swift */; };
+		BD8AFF022885219300BBA900 /* DockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFF012885219300BBA900 /* DockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD59187F288546E30072FC79 /* DockSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockSettings.swift; sourceTree = "<group>"; };
 		BD8AFEE32884F37400BBA900 /* MacOSDockAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSDockAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8AFEE62884F37400BBA900 /* MacOSDockAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSDockAnimationApp.swift; sourceTree = "<group>"; };
 		BD8AFEE82884F37400BBA900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		BD8AFEEF2884F37400BBA900 /* MacOSDockAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSDockAnimation.entitlements; sourceTree = "<group>"; };
 		BD8AFEF52884F38B00BBA900 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		BD8AFEF92884F63D00BBA900 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BD8AFEFB2884F93900BBA900 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BD8AFEFD28851D7000BBA900 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		BD8AFEFF28851EC700BBA900 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		BD8AFF012885219300BBA900 /* DockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD59187E288541C30072FC79 /* ExtensionViews */ = {
+			isa = PBXGroup;
+			children = (
+				BD8AFEFD28851D7000BBA900 /* BlurView.swift */,
+			);
+			path = ExtensionViews;
+			sourceTree = "<group>";
+		};
 		BD8AFEDA2884F37400BBA900 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +76,12 @@
 			children = (
 				BD8AFEE62884F37400BBA900 /* MacOSDockAnimationApp.swift */,
 				BD8AFEE82884F37400BBA900 /* ContentView.swift */,
-				BD8AFEF82884F62F00BBA900 /* Extensions */,
 				BD8AFEF72884F5D100BBA900 /* Model */,
+				BD8AFEF82884F62F00BBA900 /* Extensions */,
+				BD59187E288541C30072FC79 /* ExtensionViews */,
+				BD8AFEFB2884F93900BBA900 /* BackgroundView.swift */,
+				BD8AFEFF28851EC700BBA900 /* AppIconView.swift */,
+				BD8AFF012885219300BBA900 /* DockView.swift */,
 				BD8AFEEA2884F37400BBA900 /* Assets.xcassets */,
 				BD8AFEEF2884F37400BBA900 /* MacOSDockAnimation.entitlements */,
 				BD8AFEEC2884F37400BBA900 /* Preview Content */,
@@ -79,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8AFEF52884F38B00BBA900 /* App.swift */,
+				BD59187F288546E30072FC79 /* DockSettings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,10 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8AFF0028851EC700BBA900 /* AppIconView.swift in Sources */,
+				BD8AFEFC2884F93900BBA900 /* BackgroundView.swift in Sources */,
 				BD8AFEF62884F38B00BBA900 /* App.swift in Sources */,
+				BD591880288546E30072FC79 /* DockSettings.swift in Sources */,
 				BD8AFEE92884F37400BBA900 /* ContentView.swift in Sources */,
 				BD8AFEE72884F37400BBA900 /* MacOSDockAnimationApp.swift in Sources */,
+				BD8AFF022885219300BBA900 /* DockView.swift in Sources */,
 				BD8AFEFA2884F63D00BBA900 /* ColorExtension.swift in Sources */,
+				BD8AFEFE28851D7000BBA900 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
