@@ -22,7 +22,7 @@ struct AppIconView: View {
             .shadow(radius: 1, x:0, y: 2)
             .padding([.leading], 12)
             .padding([.top, .bottom], 7)
-            .onHover { onHover in
+            .whenHovered { onHover in
                 if onHover {
                     withAnimation(.easeIn(duration: 0.2)) {
                         AppIcon.initializeDock(apps: &dockSettings.apps)

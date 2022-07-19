@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD591880288546E30072FC79 /* DockSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59187F288546E30072FC79 /* DockSettings.swift */; };
+		BD7903C72886D8100053A392 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7903C62886D8100053A392 /* ViewExtension.swift */; };
 		BD8AFEE72884F37400BBA900 /* MacOSDockAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEE62884F37400BBA900 /* MacOSDockAnimationApp.swift */; };
 		BD8AFEE92884F37400BBA900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AFEE82884F37400BBA900 /* ContentView.swift */; };
 		BD8AFEEB2884F37400BBA900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AFEEA2884F37400BBA900 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		BD59187F288546E30072FC79 /* DockSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockSettings.swift; sourceTree = "<group>"; };
+		BD7903C62886D8100053A392 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		BD8AFEE32884F37400BBA900 /* MacOSDockAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSDockAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8AFEE62884F37400BBA900 /* MacOSDockAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSDockAnimationApp.swift; sourceTree = "<group>"; };
 		BD8AFEE82884F37400BBA900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8AFEF92884F63D00BBA900 /* ColorExtension.swift */,
+				BD7903C62886D8100053A392 /* ViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				BD8AFEFC2884F93900BBA900 /* BackgroundView.swift in Sources */,
 				BD8AFEF62884F38B00BBA900 /* App.swift in Sources */,
 				BD591880288546E30072FC79 /* DockSettings.swift in Sources */,
+				BD7903C72886D8100053A392 /* ViewExtension.swift in Sources */,
 				BD8AFEE92884F37400BBA900 /* ContentView.swift in Sources */,
 				BD8AFEE72884F37400BBA900 /* MacOSDockAnimationApp.swift in Sources */,
 				BD8AFF022885219300BBA900 /* DockView.swift in Sources */,

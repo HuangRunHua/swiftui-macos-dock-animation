@@ -33,7 +33,7 @@ struct DockView: View {
             }
             .padding(.trailing, gap)
         }
-        .onHover { newValue in
+        .whenHovered { newValue in
             if !newValue {
                 withAnimation(.easeOut(duration: 0.2)) {
                     AppIcon.initializeDock(apps: &dockSettings.apps)
